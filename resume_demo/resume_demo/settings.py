@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-^6d89ni+shg9c_5wynfra8=@ntlh(2z=%@5qqaw9ds_o$j5vvm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','https://mangarapaul.pythonanywhere.com/']
 
 
 # Application definition
@@ -128,7 +129,7 @@ STATICFILES_DIRS = [
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR/"staticfiles"
 
-MEDIA_URL = "/media/"
+MEDIA_URL = "/mediafiles/"
 MEDIA_ROOT = BASE_DIR/"mediafiles"
 
 # Default primary key field type
